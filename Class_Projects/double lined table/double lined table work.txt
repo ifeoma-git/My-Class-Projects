@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td {
+  border: 1px solid black;
+}
+table {
+  border-spacing: 2px;
+}
+
+th, td {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+</style>
+</head>
+<body>
+
+<h2>Cellpadding - top - bottom - left - right </h2>
+<p>We can specify different padding for all fours sides of the cell content.</p>
+
+<table style="width:100%">
+  <tr>
+    <th>   </th>
+    <th>Total</th> 
+    <th>Men</th>
+    <th>Women</th>
+  </tr>
+  <tr>
+    <th>Private</th>
+    <td>3162</td>
+    <td>3381</td>
+    <td>2862</td>
+  </tr>
+  <style>
+  {
+  text-align: Centre;
+}
+</style>
+ <tr>
+    <th>Local government</th>
+    <td>2812</td>
+    <td>3206</td>
+    <td>2751</td>
+  </tr>
+  <tr>
+    <th>Central government</th>
+    <td>3718</td>
+    <td>4019</td>
+    <td>3307</td>
+  </tr>
+  <tr>
+    <th>Total</th>
+    <td>3079</td>
+    <td>3398</td>
+    <td>2827</td>
+</table>
+
+</body>
+</html>

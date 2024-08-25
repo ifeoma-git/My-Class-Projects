@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Custom HTML Table with Double Stroke Border Lines</title>
+<style>
+  /* Add CSS styles for table appearance */
+  table {
+    width: 40%;
+    border-collapse: collapse;
+    border: 1px solid black; /* Setting border attribute to "1" */
+  }
+  th, td {
+    border: 1px solid black; /* Single border line */
+    padding: 8px;
+    text-align: center;
+    position: relative;
+  }
+  th::before, td::before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    border: 1px solid black; /* Outer border */
+    z-index: -1;
+  }
+</style>
+</head>
+<body>
+
+<!-- Table element with 4 columns and 5 rows -->
+<table>
+  <!-- Table header row -->
+  <tr>
+    <th></th> <!-- Empty heading cell in the top left corner -->
+    <th><b>Total</b></th>
+    <th><b>Men</b></th>
+    <th><b>Women</b></th>
+  </tr>
+  <!-- Table data rows -->
+  <tr>
+    <th><b>Private</b></th> <!-- Heading cell for the first row -->
+    <td>3162</td>
+    <td>3381</td>
+    <td>2862</td>
+  </tr>
+  <tr>
+    <th><b>Local government</b></th>
+    <td>2812</td>
+    <td>3206</td>
+    <td>2751</td>
+  </tr>
+  <tr>
+    <th><b>Central government</b></th>
+    <td>3718</td>
+    <td>4019</td>
+    <td>3307</td>
+  </tr>
+  <tr>
+    <th><b>Total</b></th>
+    <td>3079</td>
+    <td>3398</td>
+    <td>2827</td>
+  </tr>
+</table>
+
+</body>
+</html>

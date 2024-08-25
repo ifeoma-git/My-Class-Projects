@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Welcome to the best history quiz you've seen so far!</title>
+</head>
+<body>
+
+<h1>Welcome to the best history quiz you've seen so far!</h1>
+
+<form action="#" method="POST">
+  <div>
+    <p>1. Who was the first president of the USA?</p><br>
+    <input type="radio" name="usa-president" value="George Washington" id="george-washington"> George Washington <br>
+    <input type="radio" name="usa-president" value="George Bush" id="george-bush"> George Bush <br>    
+    <input type="radio" name="usa-president" value="George W. Bush" id="george-w-bush"> George W. Bush <br>    
+  </div>
+  
+  <div>
+    <p>2. On which island was Napoleon born?</p><br>
+    <input type="radio" name="birth-island" value="Corsica" id="corsica"> Corsica  <br>    
+    <input type="radio" name="birth-island" value="Capri" id="capri"> Capri <br>
+    <input type="radio" name="birth-island" value="Lipari" id="lipari"> Lipari <br>
+  </div>
+  
+  <div>
+    <p>3. What was the former name of New York?</p><br>
+    <input type="radio" name="new-york-former-name" value="New Chester" id="new-chester"> New Chester <br>
+    <input type="radio" name="new-york-former-name" value="Old York" id="old-york"> Old York <br>    
+    <input type="radio" name="new-york-former-name" value="New Amsterdam" id="new-amsterdam"> New Amsterdam <br>
+  </div>
+  
+  <button type="submit">Submit</button>
+</form>
+
+</body>
+</html>

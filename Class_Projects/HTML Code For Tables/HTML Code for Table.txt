@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Custom HTML Table</title>
+<style>
+  /* Optional: Add CSS styles for table appearance */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black; /* Setting border attribute to "1" */
+  }
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+
+<!-- Table element with 4 columns and 5 rows -->
+<table>
+  <!-- Table header row -->
+  <tr>
+    <th></th> <!-- Empty heading cell in the top left corner -->
+    <th>Column 1</th>
+    <th>Column 2</th>
+    <th>Column 3</th>
+    <th>Column 4</th>
+  </tr>
+  <!-- Table data rows -->
+  <tr>
+    <th>Row 1</th> <!-- Heading cell for the first row -->
+    <td>Data 1-1</td>
+    <td>Data 1-2</td>
+    <td>Data 1-3</td>
+    <td>Data 1-4</td>
+  </tr>
+  <tr>
+    <th>Row 2</th>
+    <td>Data 2-1</td>
+    <td>Data 2-2</td>
+    <td>Data 2-3</td>
+    <td>Data 2-4</td>
+  </tr>
+  <tr>
+    <th>Row 3</th>
+    <td>Data 3-1</td>
+    <td>Data 3-2</td>
+    <td>Data 3-3</td>
+    <td>Data 3-4</td>
+  </tr>
+  <tr>
+    <th>Row 4</th>
+    <td>Data 4-1</td>
+    <td>Data 4-2</td>
+    <td>Data 4-3</td>
+    <td>Data 4-4</td>
+  </tr>
+  <tr>
+    <th>Row 5</th>
+    <td>Data 5-1</td>
+    <td>Data 5-2</td>
+    <td>Data 5-3</td>
+    <td>Data 5-4</td>
+  </tr>
+</table>
+
+</body>
+</html>

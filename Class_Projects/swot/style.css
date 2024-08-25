@@ -1,0 +1,9 @@
+.container {
+  min-height: 600px;
+  min-width: 600px;
+}
+
+.swot {
+  border-color: blue;
+  border-style: groove;
+}

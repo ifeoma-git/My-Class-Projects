@@ -1,0 +1,63 @@
+/*Center elements */
+    body, header, main, footer { 
+    display: flex;
+    justify-content: center;
+    }
+    /* main styling */
+    main {
+    flex-direction: column;
+    align-items: center;
+    }
+    /* Style header */
+header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Style h1 header */
+h1 {
+  margin-bottom: 30px; /* Add margin to separate from navigation */
+}
+
+/* Style navigation container */
+.nav-container {
+  background-color: blueviolet; /* Light background color for navigation container */
+  padding: 1px; /* Add padding */
+  border-radius: 10px; /* Add border radius */
+  margin-bottom: 100px; /* Add margin to separate from table */
+}
+
+/* Style navigation links */
+nav a {
+  background-color: darkviolet;
+  color: white;
+  padding: 2px 5px;
+  border-radius: 5px;
+  margin: 7px;
+}
+
+/* Style table */
+table {
+  width: 35%;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+/* Style table column headings */
+th {
+  background-color: darkblue;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+/* Style table rows */
+tr:nth-child(even) {
+  background-color: #ccc;
+}  
+tr {
+  text-align: center;
+}
+</style>

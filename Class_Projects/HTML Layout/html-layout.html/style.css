@@ -1,0 +1,80 @@
+        /* Reset default margin and padding */
+body, h1, h2, p, header, main, footer, nav, ul, li, article, aside {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    padding: 0;
+    margin: 0;
+}
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  /* Main styling */
+main:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Box styling for article */
+article {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    width: calc(100% - 220px); /* Adjust width to accommodate aside */
+    float: left;
+}
+
+/* Box styling for aside */
+aside {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 150px; /* Adjust width as needed */
+    float: right;
+}
+
+/* List styling */
+aside ul {
+  list-style: disc; /* Use bullet points for list items */
+  padding-left: 20px; /* Adjust indentation of list items */
+}
+
+/* Header styling */
+header {
+  border-bottom: 1px solid #ccc; /* Add ruler below header */
+  background-color: white; /* Change to desired background color */
+  color: black; /* Change to desired text color */
+  padding: 10px;
+}
+
+/* Footer styling */
+footer {
+  border-top: 1px solid #ccc; /* Add ruler above footer */
+  background-color: white; /* Change to desired background color */
+  color: black; /* Change to desired text color */
+  padding: 10px;
+  text-align: center;
+}
+/* Main body styling */
+main {
+  margin-top: 5px; /* Adjust margin to separate header from main body */
+  margin-bottom: 5px; /* Adjust margin to separate footer from main body */
+  border-top: 1px solid #ccc; /* Add navigation ruler */
+}
+
+/* Basic styling */
+body {
+  padding: 0;
+  margin: 0;
+}

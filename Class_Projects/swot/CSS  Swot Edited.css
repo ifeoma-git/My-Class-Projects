@@ -1,0 +1,36 @@
+.container {
+    display: flex; /* Use flexbox to arrange boxes side by side */
+    flex-wrap: wrap; /* Allow boxes to wrap to the next line if container width is not enough */
+  }
+
+  .box {
+    width: calc(50% - 2px); /* Each box takes up 50% of the container width minus border width */
+    height: calc(50% - 2px); /* Each box takes up 50% of the container height minus border width */
+    padding: 30px; /* Add padding to each box */
+    border: 2px solid blue; /* Add a border to each box */
+    box-sizing: border-box; /* Ensure padding and border are included in box dimensions */
+    margin: 5px; /* Add margin between boxes */
+    display: flex; /* Use flexbox to center content vertically and horizontally */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+  }
+
+  #A {
+    order: 1; /* Display box A first */
+  }
+
+  #B {
+        order: 3; /* Display box B second */
+  }
+
+  #C {
+    margin-top: -174px;
+    margin-left: 330px;
+    order: 2; /* Display box C third */
+  }
+
+  #D {
+    margin-top: 5px;
+    margin-left: 330px;
+    order: 4; /* Display box D fourth */
+  }

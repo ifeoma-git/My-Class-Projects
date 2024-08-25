@@ -1,0 +1,19 @@
+/* CSS for the squares */
+#A, #B, #C, #D {
+    width: calc(25vw - 1px); /* 50% viewport width minus 2px for border */
+    height: calc(25vh - 1px); /* 50% viewport height minus 2px for border */
+    border: 1px solid blue; /* Border style */
+    box-sizing: border-box; /* Include border in width calculation */
+    float: left; /* Float squares side by side */
+    margin-right: 2px; /* Adjust margin between squares */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#C {
+clear: left; /* Clear the float after the second row of squares */
+}
+ #D {
+    clear: right; /* Clear the float after the second row of squares */
+}
